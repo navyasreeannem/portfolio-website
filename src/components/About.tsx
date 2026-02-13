@@ -5,16 +5,13 @@ const About = () => {
   const [currentFact, setCurrentFact] = useState(0);
   const funFacts = [{
     icon: Code,
-    text: "I started coding at 14 and fell in love with the magic of turning ideas into reality"
+    text: "I started coding at 17 and fell in love with the magic of turning ideas into reality"
   }, {
     icon: Brain,
-    text: "I've trained over 50 AI models and each one teaches me something new about intelligence"
+    text: "I've trained over 5 AI models and each one teaches me something new about intelligence"
   }, {
     icon: Coffee,
     text: "My code runs on coffee and my AI models run on curiosity ☕"
-  }, {
-    icon: Music,
-    text: "I code better with lo-fi music and dream about AI that can compose symphonies"
   }, {
     icon: Camera,
     text: "I love capturing moments and training computer vision models to see beauty like humans do"
@@ -102,15 +99,12 @@ const About = () => {
             {/* Quick Stats */}
             <div className="grid grid-cols-3 gap-4">
               <div className="glass-card p-4 rounded-xl text-center">
-                <div className="text-2xl font-bold gradient-text">3+</div>
+                <div className="text-2xl font-bold gradient-text">1+</div>
                 <div className="text-sm text-muted-foreground">Years Experience</div>
               </div>
+              
               <div className="glass-card p-4 rounded-xl text-center">
-                <div className="text-2xl font-bold gradient-text">50+</div>
-                <div className="text-sm text-muted-foreground">AI Models Trained</div>
-              </div>
-              <div className="glass-card p-4 rounded-xl text-center">
-                <div className="text-2xl font-bold gradient-text">15+</div>
+                <div className="text-2xl font-bold gradient-text">5+</div>
                 <div className="text-sm text-muted-foreground">Projects Completed</div>
               </div>
             </div>

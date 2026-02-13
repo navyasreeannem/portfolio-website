@@ -39,10 +39,7 @@ const Skills = () => {
       }, {
         name: 'Model Deployment',
         frameworks: ['FastAPI', 'Flask', 'Streamlit']
-      }, {
-        name: 'A/B Testing',
-        frameworks: ['Statsig', 'Optimizely']
-      }]
+      }, ]
     },
     Data: {
       icon: Database,
@@ -52,7 +49,7 @@ const Skills = () => {
         frameworks: ['Apache Spark', 'Airflow']
       }, {
         name: 'Database Management',
-        frameworks: ['PostgreSQL', 'MongoDB', 'Redis']
+        frameworks: ['PostgreSQL', 'MongoDB']
       }, {
         name: 'Big Data',
         frameworks: ['Hadoop', 'Kafka', 'Elasticsearch']
@@ -79,10 +76,7 @@ const Skills = () => {
       }, {
         name: 'DevOps',
         frameworks: ['Docker', 'Kubernetes', 'CI/CD']
-      }, {
-        name: 'API Development',
-        frameworks: ['REST', 'GraphQL', 'gRPC']
-      }]
+      }, ]
     }
   };
 
